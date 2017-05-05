@@ -1,0 +1,26 @@
+{
+    "name": "etre/magento-shipping-features",
+    "description": "Magento module allowing admins to prevent countries from appearing as options during customer shipping address setup",
+    "type": "magento-module",
+    "require-dev": {
+        "larapack/dd": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tyler Mills",
+            "email": "tylerssn@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra":{
+        "magento-root-dir":"./",
+        "map":[
+            ["src/app/etc/modules/Etre_ShippingFeatures.xml", "app/etc/modules/Etre_ShippingFeatures.xml"],
+            ["srcsrc/app/code/community/Etre/ShippingFeatures", "app/code/community/Etre/ShippingFeatures"]
+        ]
+    }
+}

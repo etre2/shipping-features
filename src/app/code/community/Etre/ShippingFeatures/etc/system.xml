@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <sections>
+        <shipping>
+            <groups>
+                <etre_shipping_options translate="label">
+                    <label>Etre:: Shipping Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>2</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <expanded>1</expanded>
+                    <fields>
+                        <disallow_shipping_to_country translate="label">
+                            <label>Disable Countries as Shipping Address Options</label>
+                            <frontend_type>multiselect</frontend_type>
+                            <sort_order>90</sort_order>
+                            <source_model>adminhtml/system_config_source_country</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </disallow_shipping_to_country>
+                    </fields>
+                </etre_shipping_options>
+            </groups>
+        </shipping>
+    </sections>
+</config>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Etre_ShippingFeatures>
+            <version>0.1.0</version>
+        </Etre_ShippingFeatures>
+    </modules>
+    <global>
+        <models>
+            <etre_shippingfeatures>
+                <class>Etre_ShippingFeatures_Model</class>
+                <resourceModel>etre_shippingfeatures_resource</resourceModel>
+            </etre_shippingfeatures>
+            <etre_shippingfeatures_resource>
+                <class>Etre_ShippingFeatures_Model_Resource</class>
+            </etre_shippingfeatures_resource>
+        </models>
+        <helpers>
+            <etre_shippingfeatures>
+                <class>Etre_ShippingFeatures_Helper</class>
+            </etre_shippingfeatures>
+        </helpers>
+        <blocks>
+            <checkout>
+                <rewrite>
+                    <onepage_shipping>Etre_ShippingFeatures_Block_Checkout_Onepage_Shipping</onepage_shipping>
+                </rewrite>
+            </checkout>
+        </blocks>
+    </global>
+</config>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Etre_ShippingFeatures>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Checkout/>
+
+            </depends>
+        </Etre_ShippingFeatures>
+    </modules>
+</config>

@@ -20,7 +20,7 @@
         "magento-root-dir":"./",
         "map":[
             ["src/app/etc/modules/Etre_ShippingFeatures.xml", "app/etc/modules/Etre_ShippingFeatures.xml"],
-            ["srcsrc/app/code/community/Etre/ShippingFeatures", "app/code/community/Etre/ShippingFeatures"]
+            ["src/app/code/community/Etre/ShippingFeatures", "app/code/community/Etre/ShippingFeatures"]
         ]
     }
 }
